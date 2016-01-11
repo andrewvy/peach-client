@@ -22,7 +22,7 @@ var peach = new Peach({
 });
 
 peach.login().then(function() {
-	return peach.getConnections();
+	return peach.postText("Hello World!");
 }).then(function(data) {
 	console.log(data);
 });
@@ -36,5 +36,11 @@ Peach.login();
 
 Peach.getConnections();
 // Gets statuses of friends in your circle.
+
+Peach.post({});
+// Undocumented, raw access to the 'post' endpoint.
+
+Peach.postText("hello");
+// Posts a simple text message.
 
 ```
