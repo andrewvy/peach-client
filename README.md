@@ -18,10 +18,11 @@ var peach = new Peach({
 });
 
 peach.login().then(function() {
-	Peach.getConnections().then(function(data) {
-		console.log(data);
-	});
+	return peach.getConnections();
+}).then(function(data) {
+	console.log(data);
 });
+
 ```
 
 ### Methods
