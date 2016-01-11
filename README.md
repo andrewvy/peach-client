@@ -39,10 +39,27 @@ Peach.login();
 Peach.getConnections();
 // Gets statuses of friends in your circle.
 
+Peach.getConnectionsExplore();
+// Gets explore connections. (Friends of friends not in your circle).
+
+Peach.checkForUnreadActivity();
+// Checks for any unread activity.
+
+Peach.getActivityFeed();
+// Gets your activity feed.
+
 Peach.post({});
 // Undocumented, raw access to the 'post' endpoint.
 
 Peach.postText("hello");
 // Posts a simple text message.
 
+Peach.changeDisplayName("FooBar");
+// Changes your display name
+
+Peach.changeName("foobar");
+// Changes your username
+
+Peach.resetPassword();
+// Resets your password and sends you an email with the reset link.
 ```
