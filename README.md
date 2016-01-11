@@ -6,6 +6,8 @@
 
 A simple, unofficial API client for [Peach](https://peach.cool).
 
+This is extremely WIP, use at your own risk.
+
 ### Installation
 
 ```
