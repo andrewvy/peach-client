@@ -1,6 +1,10 @@
 # peach-client
 
-A simple client for [Peach](https://peach.cool).
+[![npm version](https://badge.fury.io/js/peach-client.svg)](https://badge.fury.io/js/peach-client)
+
+[![NPM](https://nodei.co/npm/peach-client.png)](https://nodei.co/npm/peach-client/)
+
+A simple, unofficial API client for [Peach](https://peach.cool).
 
 ### Installation
 
