@@ -1,0 +1,27 @@
+{
+  "name": "peach-client",
+  "version": "1.0.0",
+  "description": "A simple Peach client for NodeJS",
+  "main": "lib/peach.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewvy/peach-client.git"
+  },
+  "keywords": [
+    "peach",
+    "client"
+  ],
+  "author": "Andrew Vy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewvy/peach-client/issues"
+  },
+  "homepage": "https://github.com/andrewvy/peach-client#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request-promise": "^1.0.2"
+  }
+}
