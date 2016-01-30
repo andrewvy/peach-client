@@ -6,6 +6,8 @@
 
 A simple, unofficial API client for [Peach](https://peach.cool).
 
+Heavily based off research of [@ummjackson](https://github.com/ummjackson) documentation of [Peach's API](https://gist.github.com/ummjackson/4db1da44c509576c1d1b)
+
 This is extremely WIP, use at your own risk.
 
 ### Installation
